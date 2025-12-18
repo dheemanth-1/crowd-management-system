@@ -14,8 +14,6 @@ import {
 } from '@/components/ui/table';
 import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight, RefreshCw } from 'lucide-react';
 import { format } from 'date-fns';
-import {useGenderTracking} from "@/lib/hooks/useGenderTracking";
-import {useSite} from "@/lib/site-context";
 
 export default function EntriesPage() {
     const [page, setPage] = useState(1);
